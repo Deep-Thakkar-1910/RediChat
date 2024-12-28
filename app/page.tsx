@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Navbar from "./_CommonComponents/Navbar";
 
 export default function Home() {
-  return (
-    <main className="size-full min-h-[100dvh] flex items-center justify-center bg-black text-white">
-      <h1>Hello RediChat!</h1>
-    </main>
-  );
+    return (
+        <main className="size-full min-h-[100dvh] pt-8 lg:pt-14">
+            <Navbar />
+        </main>
+    );
 }
